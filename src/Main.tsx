@@ -1,9 +1,10 @@
 import React from "react";
+import { MainLayout } from "./layouts";
 
 function Main() {
   return (
-    <div className="App">
-      Courses
+    <div>
+      <MainLayout />
     </div>
   );
 }

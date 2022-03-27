@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fcc3c90-7a71-448a-8364-468329c2b67b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/general/button/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/general/button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/general/button/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fields/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/general/fields/Input/Input.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fields/Input/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/general/fields/Input/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fields/Input/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/general/fields/Input/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/library/AppBar/AppBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/library/AppBar/AppBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/library/AppBar/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/library/AppBar/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/MainLayout/MainLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/MainLayout/MainLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +76,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -88,11 +90,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/layouts" />
       <recent name="$PROJECT_DIR$/src/components/library/AppBar" />
       <recent name="$PROJECT_DIR$/src/components/library" />
-      <recent name="$PROJECT_DIR$/src/components/general/fields" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/general" />
@@ -128,7 +130,8 @@
       <workItem from="1648068876835" duration="3000" />
       <workItem from="1648068889661" duration="5000" />
       <workItem from="1648068908835" duration="942000" />
-      <workItem from="1648398101156" duration="7686000" />
+      <workItem from="1648398101156" duration="9379000" />
+      <workItem from="1648414888777" duration="130000" />
     </task>
     <servers />
   </component>

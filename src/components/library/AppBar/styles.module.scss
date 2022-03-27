@@ -1,0 +1,12 @@
+.root {
+  padding: 0.8rem 1.2rem ;
+  background: var(--primary);
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 4px var(--primary);
+  color: var(--text-primary);
+}
+
+.logo {
+  text-transform: uppercase;
+}
