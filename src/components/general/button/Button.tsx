@@ -7,7 +7,7 @@ import styles from "./styles.module.scss";
 type ButtonVariant = "contained" | "outlined" | "text"
 type ButtonType = "error" | "submit" | "text"
 
-interface InputProps {
+interface ButtonProps {
   id?: string
   label?: string,
   onChange?: (e: React.ChangeEvent<HTMLButtonElement>) => void,
@@ -23,7 +23,7 @@ interface InputProps {
 
 // hover, disabled, focused, pressed, animation ?
 
-export const Input = React.memo<InputProps>((
+export const Button = React.memo<ButtonProps>((
   {
     id,
     label,
@@ -52,4 +52,4 @@ export const Input = React.memo<InputProps>((
   );
 });
 
-export default Input;
+export default Button;

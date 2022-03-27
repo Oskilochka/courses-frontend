@@ -4,6 +4,7 @@ import styles from "./styles.module.scss";
 
 // TODO: remake later to a general component
 // for textarea, textField, timeField, NumberField, PasswordField etc
+// Options: Character counter , icon ( eye )
 
 export interface InputProps {
   id?: string
