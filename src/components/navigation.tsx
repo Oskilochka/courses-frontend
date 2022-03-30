@@ -1,4 +1,5 @@
 export const paths = {
   profile: "/profile/",
-  courses: "/courses/"
+  courses: "/courses/",
+  login: "/login/",
 }

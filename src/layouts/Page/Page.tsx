@@ -8,7 +8,7 @@ import styles from "./styles.module.scss";
 interface MainLayoutProps {
 }
 
-export const MainLayout = React.memo<MainLayoutProps>(() => {
+export const Page = React.memo<MainLayoutProps>(() => {
   return (
     <div className={classnames(styles.root)}>
       <AppBar />
@@ -23,4 +23,4 @@ export const MainLayout = React.memo<MainLayoutProps>(() => {
   );
 });
 
-export default MainLayout;
+export default Page;
