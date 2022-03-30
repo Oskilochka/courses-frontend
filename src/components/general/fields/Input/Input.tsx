@@ -30,12 +30,12 @@ export const Input = React.memo<InputProps>((
     error,
     errorText,
     disabled,
-    className
+    className,
   },
 ) => {
   return (
     <div className={classnames(styles.root, className)}>
-      {label && <label htmlFor={id} title={label} />}
+      {label ? <label className={styles.label} htmlFor={id}>label</label> : null}
       <input
         id={id}
         value={value}

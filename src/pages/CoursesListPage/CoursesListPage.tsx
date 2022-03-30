@@ -1,6 +1,6 @@
 import React from "react";
 import classnames from "classnames";
-import { CourseCard, Title } from "../../components";
+import { CourseCard, Header } from "../../components";
 import styles from "./styles.module.scss";
 
 const list = [
@@ -24,10 +24,10 @@ const list = [
 interface CoursesPageProps {
 }
 
-export const CoursesPage = React.memo<CoursesPageProps>(() => {
+export const CoursesListPage = React.memo<CoursesPageProps>(() => {
   return (
     <div className={classnames(styles.root)}>
-      <Title type={"h2"} label={"Courses Page"} />
+      <Header type={"h2"} label={"Courses Page"} />
       <div className={styles.courseCards}>
         {list.map(item => (
           <CourseCard id={item.id} title={item.title} imgUrl={item.imgUrl} />
@@ -37,4 +37,4 @@ export const CoursesPage = React.memo<CoursesPageProps>(() => {
   );
 });
 
-export default CoursesPage;
+export default CoursesListPage;

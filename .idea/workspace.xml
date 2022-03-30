@@ -5,11 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fcc3c90-7a71-448a-8364-468329c2b67b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_29_22,_11_57_PM_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_29_22__11_57_PM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_22,_11_40_PM_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_22__11_40_PM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_3_29_22,_11_57_PM_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_3_29_22__11_57_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/general/Title/Title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/general/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/general/Title/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/general/Header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/general/Title/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/general/Header/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/general/button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/general/button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/general/fields/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/general/fields/Input/Input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/general/fields/Input/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/general/fields/Input/styles.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/general/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/general/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/library/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/library/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CoursesPage/CoursesPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CoursesPage/CoursesPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CoursesPage/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CoursesPage/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/library/AppBar/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/library/AppBar/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/library/Course/CourseCard/CourseCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/library/Course/CourseCard/CourseCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/MainLayout/MainLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/MainLayout/MainLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CoursesPage/CoursesPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CoursesListPage/CoursesListPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CoursesPage/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CoursesListPage/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CoursesPage/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CoursesListPage/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProfilePage/ProfilePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProfilePage/ProfilePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProfilePage/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProfilePage/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +46,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="staging" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
@@ -132,5 +156,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
