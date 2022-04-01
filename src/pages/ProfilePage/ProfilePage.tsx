@@ -12,7 +12,6 @@ export const ProfilePage = React.memo<ProfilePageProps>(() => {
       <Header type={"h3"} label={"Profile Page"} />
       <img className={styles.img} alt="user-profile" />
       <Header type={"h5"} label={"Name Surname"} />
-
       <div>
         <Header type={"h4"} label={"Change password"} />
         <Input value={""} label={"Current password"} id={"cur-pass"} />

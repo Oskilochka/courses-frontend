@@ -4,6 +4,19 @@
   flex-direction: column;
 }
 
+.input {
+  padding: 5px 7px;
+  color: var(--gray-70-color)
+}
+
+.helperText {
+  font-size: 14px;
+}
+
+.errorText {
+  color: var(--mistake-color);
+}
+
 .label {
   font-size: 14px;
   margin-bottom: 5px;
