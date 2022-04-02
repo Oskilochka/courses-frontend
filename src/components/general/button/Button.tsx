@@ -5,7 +5,8 @@ import styles from "./styles.module.scss";
 // TODO: trigger on action
 
 type ButtonVariant = "contained" | "outlined" | "text"
-type ButtonType = "error" | "submit" | "text"
+type ButtonType = "error" | "submit" | "text" | "link" | "cancel"
+
 
 interface ButtonProps {
   id?: string

@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router";
 import classnames from "classnames";
 import { AppBar, paths } from "../../components";
-import { CoursesPage, ProfilePage, AuthPage } from "../../pages";
+import { CoursesListPage, ProfilePage, AuthPage } from "../../pages";
 import styles from "./styles.module.scss";
 
 interface MainLayoutProps {
@@ -15,7 +15,7 @@ export const MainLayout = React.memo<MainLayoutProps>(() => {
       <div>
         <Routes>
           <Route path={paths.profile} element={<ProfilePage /> } />
-          <Route path={paths.courses} element={<CoursesPage /> } />
+          <Route path={paths.courses} element={<CoursesListPage /> } />
           <Route path={paths.login} element={<AuthPage /> } />
         </Routes>
       </div>

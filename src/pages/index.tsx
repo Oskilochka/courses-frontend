@@ -1,3 +1,3 @@
 export * from "./ProfilePage";
-export * from "./CoursesPage";
+export * from "./CoursesListPage";
 export * from "./AuthPage";

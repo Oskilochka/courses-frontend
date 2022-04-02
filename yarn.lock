@@ -2454,7 +2454,7 @@ axe-core@^4.3.5:
   resolved "https://registry.npmjs.org/axe-core/-/axe-core-4.4.1.tgz"
   integrity sha512-gd1kmb21kwNuWr6BQz8fv6GNECPBnUasepcoLbekws23NVBLODdsClRZ+bQ8+9Uomf3Sm3+Vwn0oYG9NvwnJCw==
 
-axios@^0.26.1:
+axios@0.26.1:
   version "0.26.1"
   resolved "https://npm.tecorien.net/axios/-/axios-0.26.1.tgz#1ede41c51fcf51bbbd6fd43669caaa4f0495aaa9"
   integrity sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA==
@@ -4281,7 +4281,7 @@ form-data@^3.0.0:
     combined-stream "^1.0.8"
     mime-types "^2.1.12"
 
-formik@^2.2.9:
+formik@2.2.9:
   version "2.2.9"
   resolved "https://npm.tecorien.net/formik/-/formik-2.2.9.tgz#8594ba9c5e2e5cf1f42c5704128e119fc46232d0"
   integrity sha512-LQLcISMmf1r5at4/gyJigGn0gOwFbeEAlji+N9InZF6LIMXnFNkO42sCI8Jt84YZggpD4cPWObAZaxpEFtSzNA==
@@ -6575,6 +6575,11 @@ postcss-media-minmax@^5.0.0:
   resolved "https://registry.npmjs.org/postcss-media-minmax/-/postcss-media-minmax-5.0.0.tgz"
   integrity sha512-yDUvFf9QdFZTuCUg0g0uNSHVlJ5X1lSzDZjPSFaiCWvjgsvu8vEVxtahPrLMinIDEEGnx6cBe6iqdx5YWz08wQ==
 
+postcss-media-query-parser@^0.2.3:
+  version "0.2.3"
+  resolved "https://npm.tecorien.net/postcss-media-query-parser/-/postcss-media-query-parser-0.2.3.tgz#27b39c6f4d94f81b1a73b8f76351c609e5cef244"
+  integrity sha1-J7Ocb02U+Bsac7j3Y1HGCeXO8kQ=
+
 postcss-merge-longhand@^5.1.3:
   version "5.1.3"
   resolved "https://registry.npmjs.org/postcss-merge-longhand/-/postcss-merge-longhand-5.1.3.tgz"
@@ -6845,6 +6850,16 @@ postcss-replace-overflow-wrap@^4.0.0:
   resolved "https://registry.npmjs.org/postcss-replace-overflow-wrap/-/postcss-replace-overflow-wrap-4.0.0.tgz"
   integrity sha512-KmF7SBPphT4gPPcKZc7aDkweHiKEEO8cla/GjcBK+ckKxiZslIu3C4GCRW3DNfL0o7yW7kMQu9xlZ1kXRXLXtw==
 
+postcss-resolve-nested-selector@^0.1.1:
+  version "0.1.1"
+  resolved "https://npm.tecorien.net/postcss-resolve-nested-selector/-/postcss-resolve-nested-selector-0.1.1.tgz#29ccbc7c37dedfac304e9fff0bf1596b3f6a0e4e"
+  integrity sha1-Kcy8fDfe36wwTp//C/FZaz9qDk4=
+
+postcss-scss@^4.0.2:
+  version "4.0.3"
+  resolved "https://npm.tecorien.net/postcss-scss/-/postcss-scss-4.0.3.tgz#36c23c19a804274e722e83a54d20b838ab4767ac"
+  integrity sha512-j4KxzWovfdHsyxwl1BxkUal/O4uirvHgdzMKS1aWJBAV0qh2qj5qAZqpeBfVUYGWv+4iK9Az7SPyZ4fyNju1uA==
+
 postcss-selector-not@^5.0.0:
   version "5.0.0"
   resolved "https://registry.npmjs.org/postcss-selector-not/-/postcss-selector-not-5.0.0.tgz"
@@ -7067,9 +7082,9 @@ react-dev-utils@^12.0.0:
     strip-ansi "^6.0.1"
     text-table "^0.2.0"
 
-react-dom@^17.0.2:
+react-dom@17.0.2:
   version "17.0.2"
-  resolved "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
+  resolved "https://npm.tecorien.net/react-dom/-/react-dom-17.0.2.tgz#ecffb6845e3ad8dbfcdc498f0d0a939736502c23"
   integrity sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==
   dependencies:
     loose-envify "^1.1.0"
@@ -7101,7 +7116,7 @@ react-refresh@^0.11.0:
   resolved "https://registry.npmjs.org/react-refresh/-/react-refresh-0.11.0.tgz"
   integrity sha512-F27qZr8uUqwhWZboondsPx8tnC3Ct3SxZA3V5WyEvujRyyNv0VYPhoBg1gZ8/MV5tubQp76Trw8lTv9hzRBa+A==
 
-react-router-dom@^6.2.2:
+react-router-dom@6.2.2:
   version "6.2.2"
   resolved "https://npm.tecorien.net/react-router-dom/-/react-router-dom-6.2.2.tgz#f1a2c88365593c76b9612ae80154a13fcb72e442"
   integrity sha512-AtYEsAST7bDD4dLSQHDnk/qxWLJdad5t1HFa1qJyUrCeGgEuCSw0VB/27ARbF9Fi/W5598ujvJOm3ujUCVzuYQ==
@@ -7908,6 +7923,46 @@ stylehacks@^5.1.0:
   dependencies:
     browserslist "^4.16.6"
     postcss-selector-parser "^6.0.4"
+
+stylelint-config-recommended-scss@^5.0.2:
+  version "5.0.2"
+  resolved "https://npm.tecorien.net/stylelint-config-recommended-scss/-/stylelint-config-recommended-scss-5.0.2.tgz#193f483861c76a36ece24c52eb6baca4838f4a48"
+  integrity sha512-b14BSZjcwW0hqbzm9b0S/ScN2+3CO3O4vcMNOw2KGf8lfVSwJ4p5TbNEXKwKl1+0FMtgRXZj6DqVUe/7nGnuBg==
+  dependencies:
+    postcss-scss "^4.0.2"
+    stylelint-config-recommended "^6.0.0"
+    stylelint-scss "^4.0.0"
+
+stylelint-config-recommended@^6.0.0:
+  version "6.0.0"
+  resolved "https://npm.tecorien.net/stylelint-config-recommended/-/stylelint-config-recommended-6.0.0.tgz#fd2523a322836005ad9bf473d3e5534719c09f9d"
+  integrity sha512-ZorSSdyMcxWpROYUvLEMm0vSZud2uB7tX1hzBZwvVY9SV/uly4AvvJPPhCcymZL3fcQhEQG5AELmrxWqtmzacw==
+
+stylelint-config-standard-scss@^3.0.0:
+  version "3.0.0"
+  resolved "https://npm.tecorien.net/stylelint-config-standard-scss/-/stylelint-config-standard-scss-3.0.0.tgz#dafc4fa5538d0ed833bf0a7d391e075683ffd96c"
+  integrity sha512-zt3ZbzIbllN1iCmc94e4pDxqpkzeR6CJo5DDXzltshuXr+82B8ylHyMMARNnUYrZH80B7wgY7UkKTYCFM0UUyw==
+  dependencies:
+    stylelint-config-recommended-scss "^5.0.2"
+    stylelint-config-standard "^24.0.0"
+
+stylelint-config-standard@^24.0.0:
+  version "24.0.0"
+  resolved "https://npm.tecorien.net/stylelint-config-standard/-/stylelint-config-standard-24.0.0.tgz#6823f207ab997ae0b641f9a636d007cc44d77541"
+  integrity sha512-+RtU7fbNT+VlNbdXJvnjc3USNPZRiRVp/d2DxOF/vBDDTi0kH5RX2Ny6errdtZJH3boO+bmqIYEllEmok4jiuw==
+  dependencies:
+    stylelint-config-recommended "^6.0.0"
+
+stylelint-scss@^4.0.0:
+  version "4.2.0"
+  resolved "https://npm.tecorien.net/stylelint-scss/-/stylelint-scss-4.2.0.tgz#e25fd390ee38a7e89fcfaec2a8f9dce2ec6ddee8"
+  integrity sha512-HHHMVKJJ5RM9pPIbgJ/XA67h9H0407G68Rm69H4fzFbFkyDMcTV1Byep3qdze5+fJ3c0U7mJrbj6S0Fg072uZA==
+  dependencies:
+    lodash "^4.17.21"
+    postcss-media-query-parser "^0.2.3"
+    postcss-resolve-nested-selector "^0.1.1"
+    postcss-selector-parser "^6.0.6"
+    postcss-value-parser "^4.1.0"
 
 supports-color@^5.3.0:
   version "5.5.0"
