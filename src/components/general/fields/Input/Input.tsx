@@ -1,10 +1,13 @@
 import React from "react";
 import classnames from "classnames";
+import classNames from "classnames";
 import styles from "./styles.module.scss";
 
 // TODO: remake later to a general component
 // for textarea, textField, timeField, NumberField, PasswordField etc
 // Options: Character counter , icon ( eye )
+
+type TextFieldVariant = "outlined" | "standard"
 
 export interface InputProps {
   id?: string
@@ -13,11 +16,22 @@ export interface InputProps {
   onChange?: (e?: React.ChangeEvent<HTMLInputElement>) => void,
   placeholder?: string,
 
+  required?: boolean,
+  variant?: TextFieldVariant,
+
+  type?: string,
+  autoComplete?: string,
+
+  showClearBtn?: boolean,
+
+  readOnly?: boolean,
+
   disabled?: boolean,
   className?: string,
 
   error?: boolean,
-  errorText?: string,
+  helperText?: string,
+
 }
 
 export const Input = React.memo<InputProps>((
@@ -27,23 +41,28 @@ export const Input = React.memo<InputProps>((
     value,
     onChange,
     placeholder = "Type here...",
-    error,
-    errorText,
+    error ,
+    helperText = "helperText",
     disabled,
-    className
+    className,
+    variant = "standard",
   },
 ) => {
+
   return (
     <div className={classnames(styles.root, className)}>
-      {label && <label htmlFor={id} title={label} />}
+      {label ? <label className={styles.label} htmlFor={id}>label</label> : null}
       <input
         id={id}
         value={value}
         onChange={onChange}
         disabled={disabled}
         placeholder={placeholder}
+        className={styles.input}
       />
-      {error && <span>{errorText}</span>}
+      {helperText && <span className={classNames(styles.helperText, {
+        [styles.errorText]: error,
+      })}>{helperText}</span>}
     </div>
   );
 });
