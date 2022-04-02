@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0fcc3c90-7a71-448a-8364-468329c2b67b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/general/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/general/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/library/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/library/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CoursesPage/CoursesPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CoursesPage/CoursesPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CoursesPage/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CoursesPage/styles.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="staging" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
@@ -70,7 +71,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/general" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/layouts" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -84,11 +85,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/general" />
-      <recent name="$PROJECT_DIR$/src/components/library/Course" />
-      <recent name="$PROJECT_DIR$/src/components/library" />
+      <recent name="$PROJECT_DIR$/src/layouts" />
       <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/library/AppBar" />
+      <recent name="$PROJECT_DIR$/src/components/library" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/general" />
@@ -126,11 +127,22 @@
       <workItem from="1648068908835" duration="942000" />
       <workItem from="1648398101156" duration="9379000" />
       <workItem from="1648414888777" duration="130000" />
-      <workItem from="1648498061966" duration="2505000" />
+      <workItem from="1648670891936" duration="1294000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
