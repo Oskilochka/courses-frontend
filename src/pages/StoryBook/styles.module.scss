@@ -1,0 +1,13 @@
+.root {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: calc(100vh - 42px);
+  margin: 0 auto;
+  width: 500px;
+  align-items: center;
+}
+
+.img {
+  margin-bottom: 30px;
+}

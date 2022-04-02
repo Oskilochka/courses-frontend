@@ -6,7 +6,7 @@ import { AuthForm } from "./form";
 interface AuthPageProps {
 }
 
-export const AuthPage = React.memo<AuthPageProps>(() => {
+export const LoginPage = React.memo<AuthPageProps>(() => {
   return (
     <div className={classnames(styles.root)}>
       <h4> Welcome on platform</h4>
@@ -15,4 +15,4 @@ export const AuthPage = React.memo<AuthPageProps>(() => {
   );
 });
 
-export default AuthPage;
+export default LoginPage;
