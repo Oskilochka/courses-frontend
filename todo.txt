@@ -3,4 +3,5 @@ TODO
 2. Add general api base request + general types
 3. Add authentication + registered routes
 4. Make more general ui
+5. Remove ./idea
 
