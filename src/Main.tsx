@@ -3,7 +3,9 @@ import { MainLayout } from "./layouts";
 
 function Main() {
   return (
-    <MainLayout />
+    <div>
+      <MainLayout />
+    </div>
   );
 }
 
