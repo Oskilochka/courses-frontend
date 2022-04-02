@@ -41,8 +41,8 @@ export const Input = React.memo<InputProps>((
     value,
     onChange,
     placeholder = "Type here...",
-    error = true,
-    helperText = "error",
+    error ,
+    helperText = "helperText",
     disabled,
     className,
     variant = "standard",
@@ -60,7 +60,7 @@ export const Input = React.memo<InputProps>((
         placeholder={placeholder}
         className={styles.input}
       />
-      {error && <span className={classNames(styles.helperText, {
+      {helperText && <span className={classNames(styles.helperText, {
         [styles.errorText]: error,
       })}>{helperText}</span>}
     </div>
