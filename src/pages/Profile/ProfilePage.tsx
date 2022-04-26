@@ -1,15 +1,13 @@
 import React from "react";
-import classnames from "classnames";
 import styles from "./styles.module.scss";
-import { Button, Header, Input } from "../../components";
+import { Button, Header, Input, Page } from "../../components";
 
 interface ProfilePageProps {
 }
 
 export const ProfilePage = React.memo<ProfilePageProps>(() => {
   return (
-    <div className={classnames(styles.root)}>
-      <Header type={"h3"} label={"Profile Page"} />
+    <Page header="Profile Page">
       <img className={styles.img} alt="user-profile" />
       <Header type={"h5"} label={"Name Surname"} />
       <div>
@@ -21,7 +19,7 @@ export const ProfilePage = React.memo<ProfilePageProps>(() => {
           <Button type={"submit"}>Save</Button>
         </div>
       </div>
-    </div>
+    </Page>
   );
 });
 

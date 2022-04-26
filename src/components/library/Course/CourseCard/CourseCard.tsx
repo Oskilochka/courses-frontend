@@ -20,7 +20,7 @@ export const CourseCard = React.memo<CourseCardProps>((
     <div id={id} className={styles.root}>
       <Header type="h4" label={title} />
       <img className={styles.previewImg} src={imgUrl} alt="courseImg" />
-      <Link to={`${paths.courses}:${id}`}>
+      <Link to={`${paths.courses}${id}`}>
         <Button>
           See more
         </Button>
