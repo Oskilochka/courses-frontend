@@ -38,16 +38,17 @@ export const Input = React.memo<InputProps>((
   {
     id,
     label,
-    value,
-    onChange,
+    // value,
+    // onChange,
     placeholder = "Type here...",
-    error ,
+    error,
     helperText = "helperText",
     disabled,
     className,
     variant = "standard",
   },
 ) => {
+  const [ value, setValue ] = React.useState<string>("");
 
   return (
     <div className={classnames(styles.root, className)}>
@@ -55,7 +56,7 @@ export const Input = React.memo<InputProps>((
       <input
         id={id}
         value={value}
-        onChange={onChange}
+        onChange={(e) => setValue(e.target.value)}
         disabled={disabled}
         placeholder={placeholder}
         className={styles.input}
