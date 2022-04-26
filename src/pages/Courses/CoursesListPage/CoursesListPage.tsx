@@ -1,6 +1,6 @@
 import React from "react";
 import classnames from "classnames";
-import { CourseCard, Header } from "../../components";
+import { CourseCard, Header } from "../../../components";
 import styles from "./styles.module.scss";
 
 const list = [

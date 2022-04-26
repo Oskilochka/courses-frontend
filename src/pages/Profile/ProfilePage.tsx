@@ -17,8 +17,8 @@ export const ProfilePage = React.memo<ProfilePageProps>(() => {
         <Input value={""} label={"Current password"} id={"cur-pass"} />
         <Input value={""} label={"New password"} id={"new-pass"} />
         <div>
-          <Button label={"Cancel"} type={"cancel"} />
-          <Button label={"Save"} type={"submit"} />
+          <Button type={"cancel"}>Cancel</Button>
+          <Button type={"submit"}>Save</Button>
         </div>
       </div>
     </div>

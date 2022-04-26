@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Input } from "../../components";
+import { Button, Input } from "../index";
 import styles from "./styles.module.scss";
 
 export const StoryBook = React.memo(() => {
@@ -9,7 +9,7 @@ export const StoryBook = React.memo(() => {
         <Input value={"dfsdf"} />
       </Block>
       <Block title="Buttons">
-        <Button label={"Btn"} />
+        <Button>Btn</Button>
       </Block>
     </div>
   );

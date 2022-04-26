@@ -10,7 +10,6 @@ type ButtonType = "error" | "submit" | "text" | "link" | "cancel"
 
 interface ButtonProps {
   id?: string
-  label?: string,
   onChange?: (e: React.ChangeEvent<HTMLButtonElement>) => void,
 
   variant?: ButtonVariant,
@@ -20,6 +19,7 @@ interface ButtonProps {
   className?: string,
 
   icon?: React.ReactNode
+  children?: React.ReactNode
 }
 
 // hover, disabled, focused, pressed, animation ?
@@ -27,7 +27,6 @@ interface ButtonProps {
 export const Button = React.memo<ButtonProps>((
   {
     id,
-    label,
     onChange,
 
     disabled,
@@ -37,6 +36,7 @@ export const Button = React.memo<ButtonProps>((
     type,
 
     icon,
+    children,
   },
 ) => {
   return (
@@ -46,8 +46,8 @@ export const Button = React.memo<ButtonProps>((
         onChange={onChange}
         disabled={disabled}
       >
+        {children}
         {!!icon ? icon : null}
-        {label}
       </button>
     </div>
   );

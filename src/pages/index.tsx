@@ -1,3 +1,3 @@
-export * from "./ProfilePage";
-export * from "./CoursesListPage";
-export * from "./LoginPage";
+export * from "./Profile";
+export * from "./Courses";
+export * from "./Authorization";
