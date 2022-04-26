@@ -22,7 +22,7 @@ interface ButtonProps {
   children?: React.ReactNode
 }
 
-// hover, disabled, focused, pressed, animation ?
+//  disabled
 
 export const Button = React.memo<ButtonProps>((
   {
@@ -40,16 +40,15 @@ export const Button = React.memo<ButtonProps>((
   },
 ) => {
   return (
-    <div className={classnames(styles.root, className)}>
-      <button
-        id={id}
-        onChange={onChange}
-        disabled={disabled}
-      >
-        {children}
-        {!!icon ? icon : null}
-      </button>
-    </div>
+    <button
+      id={id}
+      onChange={onChange}
+      disabled={disabled}
+      className={classnames(styles.root, className)}
+    >
+      {children}
+      {!!icon ? icon : null}
+    </button>
   );
 });
 

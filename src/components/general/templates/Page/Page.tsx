@@ -11,6 +11,8 @@ export interface PageProps {
   contentClassName?: string,
 }
 
+// TODO: add permissions for page or create another page component that will be with permissions
+
 export const Page = React.memo<PageProps>((
   {
     children,

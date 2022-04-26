@@ -1,3 +1,24 @@
 .root {
   padding: 10px 15px;
+  cursor: pointer;
+
+  background: var(--ocean-color);
+  color: var(--text-primary);
+
+  border: 1px solid var(--ocean-color);
+  border-radius: 4px;
+
+  &:hover {
+    background: none;
+    color: var(--ocean-color);
+    border: 1px solid var(--ocean-color);
+
+    transition: 0.2s;
+  }
+
+  &:active {
+    background: var(--ocean-color);
+    color: var(--text-primary);
+
+  }
 }
