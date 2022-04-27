@@ -1,8 +1,9 @@
 import React from "react";
-import styles from "./styles.module.scss";
 import { Button, Header } from "../../../general";
 import { Link } from "react-router-dom";
 import { paths } from "../../../navigation";
+import styles from "./styles.module.scss";
+import { FavouriteButton } from "../../buttons";
 
 interface CourseCardProps {
   id: string;
@@ -18,10 +19,11 @@ export const CourseCard = React.memo<CourseCardProps>((
   }) => {
   return (
     <div id={id} className={styles.root}>
-      <Header type="h4" label={title} />
+      <FavouriteButton />
       <img className={styles.previewImg} src={imgUrl} alt="courseImg" />
+      <Header type="h4" label={title} />
       <Link to={`${paths.courses}${id}`}>
-        <Button>
+        <Button className={styles.btn}>
           See more
         </Button>
       </Link>

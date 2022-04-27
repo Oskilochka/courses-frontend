@@ -8,7 +8,7 @@ interface ProfilePageProps {
 export const ProfilePage = React.memo<ProfilePageProps>(() => {
   return (
     <Page header="Profile Page">
-      <img className={styles.img} alt="user-profile" />
+      <img className={styles.img} src={"https://cdn.dribbble.com/users/1577045/screenshots/4914645/media/028d394ffb00cb7a4b2ef9915a384fd9.png?compress=1&resize=400x300"} alt="user-profile" />
       <Header type={"h5"} label={"Name Surname"} />
       <div>
         <Header type={"h4"} label={"Change password"} />

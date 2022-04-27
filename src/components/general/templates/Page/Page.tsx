@@ -27,7 +27,7 @@ export const Page = React.memo<PageProps>((
       {
         header && <div className={classnames(styles.header, headerClassName)}>
           {typeof header === "string" ? <Header type={"h2"} label={header} /> : header}
-          <hr />
+          <hr className={styles.divider} />
         </div>
       }
       <div className={classnames(styles.content, contentClassName)}>

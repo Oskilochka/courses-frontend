@@ -1,0 +1,17 @@
+.root {
+  cursor: pointer;
+  border: none;
+  background: none;
+  height: 20px;
+
+  position: absolute;
+  right: 15px;
+  top: 10px;
+
+  &:hover {
+    svg {
+      fill: red;
+      transition: 0.2s;
+    }
+  }
+}
