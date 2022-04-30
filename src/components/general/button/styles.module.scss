@@ -2,11 +2,15 @@
   padding: 10px 15px;
   cursor: pointer;
 
-  background: var(--ocean-color);
-  color: var(--text-primary);
+  background: none;
 
   border: 1px solid var(--ocean-color);
   border-radius: 4px;
+}
+
+.contained {
+  background: var(--ocean-color);
+  color: var(--text-primary);
 
   &:hover {
     background: none;
@@ -19,6 +23,28 @@
   &:active {
     background: var(--ocean-color);
     color: var(--text-primary);
+  }
+}
 
+.outlined {
+  border: 1px solid var(--ocean-color);
+  color: var(--ocean-color);
+
+  background: none;
+
+  &:hover {
+    background: var(--ocean-color);
+    color: var(--text-primary);;
+  }
+}
+
+.variantText {
+  border: none;
+  color: var(--ocean-color);
+
+  &:hover {
+    background: rgba( 20, 112, 155, 0.1);
+
+    transition: 0.3s;
   }
 }

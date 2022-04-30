@@ -3,10 +3,20 @@ import classnames from "classnames";
 import styles from "./styles.module.scss";
 
 // TODO: trigger on action
+export enum ButtonVariant {
+  contained = "contained",
+  outlined = "outlined",
+  text = "text",
+}
 
-type ButtonVariant = "contained" | "outlined" | "text"
-type ButtonType = "error" | "submit" | "text" | "link" | "cancel"
-
+export enum ButtonType {
+  error = "error",
+  submit = "submit",
+  text = "text",
+  link = "link",
+  cancel = "cancel",
+  warning = "warning",
+}
 
 interface ButtonProps {
   id?: string
@@ -32,7 +42,7 @@ export const Button = React.memo<ButtonProps>((
     disabled,
     className,
 
-    variant,
+    variant = ButtonVariant.text,
     type,
 
     icon,
@@ -44,7 +54,13 @@ export const Button = React.memo<ButtonProps>((
       id={id}
       onChange={onChange}
       disabled={disabled}
-      className={classnames(styles.root, className)}
+      className={classnames(styles.root, className, {
+        [styles.contained ] : variant === ButtonVariant.contained,
+        [styles.outlined ] : variant === ButtonVariant.outlined,
+        [styles.variantText ] : variant === ButtonVariant.text,
+
+        [styles.text ] : variant === ButtonVariant.text,
+      })}
     >
       {children}
       {!!icon ? icon : null}
