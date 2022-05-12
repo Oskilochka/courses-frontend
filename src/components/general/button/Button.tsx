@@ -9,21 +9,11 @@ export enum ButtonVariant {
   text = "text",
 }
 
-export enum ButtonType {
-  error = "error",
-  submit = "submit",
-  text = "text",
-  link = "link",
-  cancel = "cancel",
-  warning = "warning",
-}
-
 interface ButtonProps {
   id?: string
   onChange?: (e: React.ChangeEvent<HTMLButtonElement>) => void,
 
   variant?: ButtonVariant,
-  type?: ButtonType,
 
   disabled?: boolean,
   className?: string,
@@ -32,18 +22,16 @@ interface ButtonProps {
   children?: React.ReactNode
 }
 
-//  disabled
 
 export const Button = React.memo<ButtonProps>((
   {
     id,
     onChange,
 
-    disabled,
+    disabled = true,
     className,
 
-    variant = ButtonVariant.text,
-    type,
+    variant = ButtonVariant.outlined,
 
     icon,
     children,
@@ -55,11 +43,10 @@ export const Button = React.memo<ButtonProps>((
       onChange={onChange}
       disabled={disabled}
       className={classnames(styles.root, className, {
-        [styles.contained ] : variant === ButtonVariant.contained,
-        [styles.outlined ] : variant === ButtonVariant.outlined,
-        [styles.variantText ] : variant === ButtonVariant.text,
-
-        [styles.text ] : variant === ButtonVariant.text,
+        [styles.contained]: variant === ButtonVariant.contained,
+        [styles.outlined]: variant === ButtonVariant.outlined,
+        [styles.variantText]: variant === ButtonVariant.text,
+        [styles.disabled]: disabled
       })}
     >
       {children}

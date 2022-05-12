@@ -6,12 +6,13 @@ type FavouriteButton = {
 }
 
 export const FavouriteButton = React.memo<FavouriteButton>(({ onClick }) => {
+
   return (
     <button
       className={styles.root}
       onClick={onClick}
     >
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 358.299 358.299">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="20px" height="20px" viewBox="0 0 358.299 358.299">
         <path id="XMLID_169_" d="M251.787,27.034c-27.396,0-53.066,10.247-72.638,28.581c-19.572-18.334-45.242-28.581-72.638-28.581
           C47.781,27.034,0,74.816,0,133.547c0,28.929,9.521,57.409,28.298,84.647c14.518,21.06,34.603,41.417,59.695,60.504
           c42.092,32.02,83.649,49.464,85.398,50.191l5.715,2.376l5.728-2.345c1.75-0.716,43.334-17.913,85.448-49.817

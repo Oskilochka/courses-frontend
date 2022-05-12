@@ -1,22 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "./styles.module.scss";
 import { paths } from "../../navigation";
+import styles from "./styles.module.scss";
 
 export const AppBar = React.memo(() => {
   return (
     <div className={styles.root}>
       <h3 className={styles.logo}>Courses</h3>
       <div>
-          <button>
-            <Link to={paths.courses}>
-              Courses
-            </Link>
-          </button>
+        <Link to={paths.courses}>
+          Courses
+        </Link>
       </div>
-      <h3>Login</h3>
+      <Link to={paths.login}>
+        Login
+      </Link>
     </div>
   );
 });
 
-export default AppBar;
